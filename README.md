@@ -1,4 +1,3 @@
-# Chameleon-Scope
 # Chameleon Scope
 Welcome to the Chameleon Scope project! This open-source development repository aims to bring you a cutting-edge smart glasses solution. With a combination of Flutter for the application development, the ESP32 microcontroller for advanced functionalities, and OpenSCAD for 3D printing, Chameleon Scope is here to revolutionize the way we interact with the world.
 

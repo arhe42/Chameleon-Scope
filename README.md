@@ -21,4 +21,4 @@ We welcome contributions from the community to help make Chameleon Scope even be
 Join our vibrant community of developers, enthusiasts, and contributors! If you have any questions, ideas, or feedback, feel free to reach out to us through klaus.knopper@hs-kl.de.
 
 Let's shape the future of smart glasses together with Chameleon Scope! Happy coding and exploring the realms of augmented reality!
-![Personenerkennung_Dummy_Bildschirmaufnahme](https://github.com/arhe42/Chameleon-Scope/assets/94597877/7fe77f4b-9efe-4258-ab36-44160ab87c03 | width=100)
+![Personenerkennung_Dummy_Bildschirmaufnahme](https://github.com/arhe42/Chameleon-Scope/assets/94597877/7fe77f4b-9efe-4258-ab36-44160ab87c03 = 100x100)

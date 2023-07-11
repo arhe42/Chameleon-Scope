@@ -9,7 +9,7 @@ To get started with Chameleon Scope, follow these simple steps:
 1. Clone the repository to your local machine.
 2. Set up the ESP32 microcontroller with the required dependencies as mentioned in the documentation.
 3. Install Flutter on your development machine if you haven't already. (https://docs.flutter.dev/deployment/android)
-4. Open the Chameleon Scope application project in Flutter and ensure you have the necessary Flutter SDK version installed. (https://developer.android.com/studio)
+4. Open the Chameleon Scope application project in Flutter and ensure you have the necessary Flutter SDK version installed. Android 10 API Version 29 (https://developer.android.com/studio)
 5. Build and run the application on your device or an emulator.
 6. For more detailed instructions and guidelines, please refer to the project's documentation.
 7. Additionally, a comprehensive handbook detailing the step-by-step process of soldering the battery to the ESP32 is available in a separate file for your reference.

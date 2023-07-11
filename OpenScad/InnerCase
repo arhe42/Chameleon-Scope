@@ -1,0 +1,140 @@
+//Variables:
+//Case
+gBreite= 21;
+gLaenge=72;
+gHoehe=30;
+gTX=40;
+gTY=80;
+
+//Inside
+iBreite=gBreite-0.5;
+iLaenge=gLaenge-0.5;
+iHoehe=gHoehe+2;
+iTX=gTX;
+iTY=gTY;
+
+//Camera
+kRadius=4.2;
+kTranslateX=37;
+
+//Lamp
+lRadius=4;
+
+//LED
+LEDtranslateX=30;
+LEDtranslateY=45;
+LEDRadius=1;
+
+//Cap
+dBreite=gBreite-5;
+dLaenge=gLaenge-5;
+dHoehe=2;
+dTX=40;
+dTY=80;
+dTZ=15;
+
+//To Opening
+oeBreite=5;
+oeLaenge=10;
+oeHoehe=10;
+oeTX=25;
+oeTY=80;
+oeTZ=19;
+
+//Magnet
+mBreite=4;
+mLaenge=10;
+mHoehe=1.5;
+mTX=29.5;
+mTY=80;
+mTZ=14;
+
+//Holding 1&2
+h1Breite=4;
+h1Laenge=8;
+h1Hoehe=1;
+h1TX=48.75;
+h1TY=90;
+h1TZ=14;
+
+h2Breite=4;
+h2Laenge=8;
+h2Hoehe=1;
+h2TX=48.75;
+h2TY=70;
+h2TZ=14;
+
+//Gap Holding
+aBreite=2.5;
+aLaenge=5.5;
+aHoehe=3;
+aTX=48.8;
+a1TY=90;
+aTZ=14;
+a2TY=70;
+
+
+difference(){
+    //Case mit Rundung
+    //Variante mit 600mAh-Akku
+    minkowski(){
+        translate( [gTX,gTY,0] ) cube([gBreite,gLaenge,gHoehe], true);
+       sphere(2, $fn=50);
+    }
+    
+     //Inside
+    translate( [iTX,iTY,2] ) cube([iBreite,iLaenge,iHoehe+5], true, $fn=100);
+    
+    //Camera
+    rotate(-90,[50,0,0]) translate( [kTranslateX,0,20] ) cylinder (h = 40, r=kRadius, $fn=100);
+    
+    //LED
+    rotate(-90,[50,0,0]) translate( [LEDtranslateX,LEDtranslateY,20] ) cylinder (h = 10, r=LEDRadius, $fn=100);
+    
+    //For the Cap
+    translate( [dTX,dTY,dTZ] ) cube([dBreite,dLaenge,dHoehe], true);
+    
+    //Gap to open
+    translate( [oeTX,oeTY,oeTZ] ) cube([oeBreite+10,oeLaenge,oeHoehe], true);
+    
+     //USB
+    translate( [40,116,0] ) cube([11.5,6,6.5], true);
+    
+    //ON_OFF
+    translate( [40,116,-10] ) cube([6.4,5,3.4], true);
+}
+
+//Magnet
+difference(){
+    translate( [mTX,mTY,mTZ] ) cube([mBreite,mLaenge,mHoehe], true);
+    
+    translate( [mTX,mTY,mTZ+1] ) cylinder (h = 1, r=4.5, $fn=100);
+}
+
+//Holding to open
+difference(){
+    translate( [h1TX,h1TY,h1TZ] ) cube([h1Breite,h1Laenge,h1Hoehe], true);
+    
+    translate( [aTX,a1TY,aTZ] ) cube([aBreite,aLaenge,aHoehe], true);
+}
+difference(){
+    translate( [h2TX, h2TY, h2TZ] ) cube([h2Breite,h2Laenge,h2Hoehe], true);
+    
+    translate( [aTX,a2TY,aTZ] ) cube([aBreite,aLaenge,aHoehe], true);
+}
+
+//ToGetOut
+difference(){
+    translate( [40,119,10] ) cube([8,3.5,1.5], true);
+    translate( [40,119,10] ) cube([6.5,2,2.5], true);
+}    
+
+//Micro-USB
+//Right
+translate( [32.5,103.5,0.5] ) cube([2.5,25,1.25], true);
+translate( [30,103.15,1.9] ) cube([2.5,25.5,4], true);
+//Left
+translate( [47.5,103.5,0.5] ) cube([2.5,25,1.25], true);
+translate( [50,103.15,1.9] ) cube([2.5,25.5,4], true);
+//Back
+translate( [40,91.5,1.4] ) cube([17.7,2.2,3], true);

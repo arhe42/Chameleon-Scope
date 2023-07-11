@@ -2,7 +2,7 @@
 Welcome to the Chameleon Scope project! This open-source development repository aims to bring you a cutting-edge smart glasses solution. With a combination of Flutter for the application development, the ESP32 microcontroller for advanced functionalities, and OpenSCAD for 3D printing, Chameleon Scope is here to revolutionize the way we interact with the world.
 
 # What is Chameleon Scope?
-Chameleon Scope is a smart glasses project. It allows you to seamlessly overlay digital information onto your real-world environment, providing an immersive and interactive experience. Whether you're a developer, a tech enthusiast, or simply curious about emerging technologies, Chameleon Scope offers a platform for exploration and innovation.
+Chameleon Scope is a smart glasses project. It allows you to seamlessly overlay digital information onto your real-world environment, providing an immersive, recording pictures, image recognition and interactive experience. Whether you're a developer, a tech enthusiast, or simply curious about emerging technologies, Chameleon Scope offers a platform for exploration and innovation.
 
 # How to Get Started
 To get started with Chameleon Scope, follow these simple steps:
@@ -13,6 +13,9 @@ To get started with Chameleon Scope, follow these simple steps:
 5. Build and run the application on your device or an emulator.
 6. For more detailed instructions and guidelines, please refer to the project's documentation.
 7. Additionally, a comprehensive handbook detailing the step-by-step process of soldering the battery to the ESP32 is available in a separate file for your reference.
+
+# FYI
+The Google-ML kit was used for image recognition, as Tensor Flow does not contain any documentation for Dart and OpenCV only offers image manipulation, greyscale and filter, which is not suitable for the project.
 
 # Contributing
 We welcome contributions from the community to help make Chameleon Scope even better. If you're interested in contributing, please review our contribution guidelines outlined in the repository. You can contribute by reporting issues, suggesting new features, or submitting pull requests.

@@ -6,14 +6,13 @@ Chameleon Scope is a smart glasses project. It allows you to seamlessly overlay 
 
 # How to Get Started
 To get started with Chameleon Scope, follow these simple steps:
-
-# Clone the repository to your local machine.
-1. Set up the ESP32 microcontroller with the required dependencies as mentioned in the documentation.
-2. Install Flutter on your development machine if you haven't already. (https://docs.flutter.dev/deployment/android)
-3. Open the Chameleon Scope application project in Flutter and ensure you have the necessary Flutter SDK version installed. (https://developer.android.com/studio)
-4. Build and run the application on your device or an emulator.
-5. For more detailed instructions and guidelines, please refer to the project's documentation.
-6. Additionally, a comprehensive handbook detailing the step-by-step process of soldering the battery to the ESP32 is available in a separate file for your reference.
+1. Clone the repository to your local machine.
+2. Set up the ESP32 microcontroller with the required dependencies as mentioned in the documentation.
+3. Install Flutter on your development machine if you haven't already. (https://docs.flutter.dev/deployment/android)
+4. Open the Chameleon Scope application project in Flutter and ensure you have the necessary Flutter SDK version installed. (https://developer.android.com/studio)
+5. Build and run the application on your device or an emulator.
+6. For more detailed instructions and guidelines, please refer to the project's documentation.
+7. Additionally, a comprehensive handbook detailing the step-by-step process of soldering the battery to the ESP32 is available in a separate file for your reference.
 
 # Contributing
 We welcome contributions from the community to help make Chameleon Scope even better. If you're interested in contributing, please review our contribution guidelines outlined in the repository. You can contribute by reporting issues, suggesting new features, or submitting pull requests.

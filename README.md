@@ -1,4 +1,5 @@
-# Chameleon Scope <img src="https://github.com/arhe42/Chameleon-Scope/assets/94597877/1e8a4c66-3e33-4610-bbca-5979320c8de9" width="200" height="250"/>
+# Chameleon Scope 
+                                                                                                                                                          <img src="https://github.com/arhe42/Chameleon-Scope/assets/94597877/1e8a4c66-3e33-4610-bbca-5979320c8de9" width="200" height="250"/>
 Welcome to the Chameleon Scope project! This open-source development repository aims to bring you a cutting-edge smart glasses solution. With a combination of Flutter for the application development, the ESP32 microcontroller for advanced functionalities, and OpenSCAD for 3D printing, Chameleon Scope is here to revolutionize the way we interact with the world.
 
 # What is Chameleon Scope?

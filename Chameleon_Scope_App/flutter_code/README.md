@@ -1,4 +1,4 @@
-# r2d
+# Chameleon Scope Flutter Application
 
 This is the neccessary code to get started with the Chameleon Scope Mobile Application, wether you want to just use the product or start contributing towards the project!
 

@@ -31,6 +31,9 @@ Let's shape the future of smart glasses together with Chameleon Scope! Happy cod
 <img src="https://github.com/arhe42/Chameleon-Scope/assets/94597877/867ae9c5-3d52-42de-861b-999aad0884e7" width="300" height="550"/>
 <img src="https://github.com/arhe42/Chameleon-Scope/assets/94597877/d57215c6-cae6-4144-b389-fefbf144639e" width="300" height="550"/>
 
+# Credits
+Thank you to 
+[Eric N / ThatProject](https://github.com/0015/ThatProject/tree/master/ESP32CAM_Projects/ESP32_CAM_Dashcam_FLUTTER/ESP32_CAM_WEBSOCKET_SERVER) for providing the base code for the ESP32CAM.
 
 
 

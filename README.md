@@ -14,8 +14,10 @@ To get started with Chameleon Scope, follow these simple steps:
 6. For more detailed instructions and guidelines, please refer to the project's documentation.
 7. Additionally, a comprehensive handbook detailing the step-by-step process of soldering the battery to the ESP32 is available in a separate file for your reference.
 
-# FYI
+# For Your Information
 The Google-ML kit was used for image recognition, as Tensor Flow does not contain any documentation for Dart and OpenCV only offers image manipulation, greyscale and filter, which is not suitable for the project.
+
+The default SSID for the ESP32-Hotspot is "Chameleon Scope", the password is the same: "Chameleon Scope".
 
 # Contributing
 We welcome contributions from the community to help make Chameleon Scope even better. If you're interested in contributing, please review our contribution guidelines outlined in the repository. You can contribute by reporting issues, suggesting new features, or submitting pull requests.
